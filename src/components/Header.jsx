@@ -41,7 +41,7 @@ export default function Header() {
       <div className="container mx-auto py-4 px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold">
-            Eatwell<span className="text-[#f56565]">.</span>
+            Eatwell<span className="text-[#ef4444]">.</span>
           </Link>
 
           <div className="flex-1 max-w-xl mx-8 hidden md:block">
