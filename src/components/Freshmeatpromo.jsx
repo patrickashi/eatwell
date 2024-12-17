@@ -15,7 +15,7 @@ export default function Freshmeatpromo() {
               Fresh Meat Dishes
             </h2>
             <p className="text-gray-600 text-lg mb-8">
-              Home Appliance, Automation And Other
+              Christmas Sales
             </p>
             <button className="bg-red-500 text-white px-8 py-3 rounded hover:bg-red-600 transition-colors uppercase font-medium">
               Shop Now
