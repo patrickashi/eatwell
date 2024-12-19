@@ -5,29 +5,24 @@ import foodbg2 from '../Assets/foodbg2.jpg';
 const Productsandservicesp = () => {
   const offerings = [
     {
-      title: "Custom Furniture Design",
-      description: "Tailor-made furniture solutions to fit your unique style and space requirements.",
-      icon: <ShoppingCart className="h-6 w-6 text-indigo-500" />
-    },
-    {
-      title: "Professional Installation",
-      description: "Expert installation services to ensure your furniture is set up perfectly in your home.",
-      icon: <Tool className="h-6 w-6 text-indigo-500" />
+      title: "Food, drinks, groceries and pharmaceutical products",
+      description: "Here in Eatwell, we deliver these products from your favourite stores directly to your doorstep",
+      icon: <ShoppingCart className="h-6 w-6 text-[#ef4444]" />
     },
     {
       title: "Delivery Services",
-      description: "Fast and reliable delivery options to bring your furniture right to your doorstep.",
-      icon: <Truck className="h-6 w-6 text-indigo-500" />
+      description: "We as a company will ensure to actively keep in touch with the restaurants, riders, and ultimately with the customers just to ensure smooth service delivery",
+      icon: <Truck className="h-6 w-6 text-[#ef4444]" />
     },
     {
       title: "Quality Assurance",
-      description: "Rigorous quality checks to guarantee the durability and finish of every piece.",
-      icon: <Star className="h-6 w-6 text-indigo-500" />
+      description: "Our watch word in Eatwell will be centered on trust. We promise to manage our customers time efficiently",
+      icon: <Star className="h-6 w-6 text-[#ef4444]" />
     },
     {
       title: "Customer Support",
-      description: "Dedicated customer service to assist you before, during, and after your purchase.",
-      icon: <Phone className="h-6 w-6 text-indigo-500" />
+      description: "Dedicated customer service to assist you before, during, and after your purchase/order",
+      icon: <Phone className="h-6 w-6 text-[#ef4444]" />
     }
   ];
 
@@ -40,7 +35,7 @@ const Productsandservicesp = () => {
           {offerings.map((offering, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <div className="p-6">
-                <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4">
+                <div className="flex items-center justify-center w-12 h-12 bg-red-100 rounded-full mb-4">
                   {offering.icon}
                 </div>
                 <h3 className="font-bold text-xl mb-2">{offering.title}</h3>

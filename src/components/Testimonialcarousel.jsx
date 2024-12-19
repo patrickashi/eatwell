@@ -7,21 +7,21 @@ import foodbg2 from '../Assets/foodbg2.jpg';
 const testimonials = [
   {
     id: 1,
-    name: "LUIES CHARLS",
-    role: "Iphone Developer",
+    name: "Peter ",
+    role: "Banker",
     image: foodbg1,
     quote: "I am quite impressed with the quality and design of this beautiful Telos bed. The delivery person was good and installed everything perfectly in my room. I love the wooden grains and the finish of the bed."
   },
   {
     id: 2,
-    name: "SARAH PARKER",
-    role: "UI Designer",
+    name: "Aurora",
+    role: "Banker",
     image: foodbg2,
     quote: "The attention to detail in their furniture is remarkable. Every piece I've purchased has exceeded my expectations in terms of both quality and aesthetics."
   },
   {
     id: 3,
-    name: "MIKE JOHNSON",
+    name: "Mike",
     role: "Product Manager",
     image: foodbg1,
     quote: "Outstanding customer service and premium quality furniture. The installation team was professional and efficient. Highly recommended!"
