@@ -84,7 +84,7 @@ export default function TestimonialCarousel() {
 
             {/* Testimonial Text */}
             <div className="flex-1 mt-0 md:mt-14 md:pl-8">
-              <p className="text-gray-600 text-sm md:text-md leading-relaxed ">
+              <p className="text-gray-600 text-center text-sm md:text-md leading-relaxed ">
                 {testimonials[currentIndex].quote}
               </p>
             </div>

@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import CrawfishPie from './pages/CrawfishPie'
 import Visionp from './pages/Visionp';
 import Productsandservicesp from './pages/Productsandservicesp';
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   )
