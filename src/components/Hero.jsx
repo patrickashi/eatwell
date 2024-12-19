@@ -30,8 +30,8 @@ export default function Hero() {
         </div>
       ))}
       <div className="relative h-full flex flex-col items-center justify-center text-white text-center z-10">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">DELICIOUS FOOD</h1>
-        <p className="text-3xl md:text-5xl font-semibold">10% OFF</p>
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">DELIVERING HAPPINESS</h1>
+        <p className="text-xl md:text-2xl font-sail">We deliver your ordered meal from our app directly tou your door step</p>
       </div>
     </section>
   )

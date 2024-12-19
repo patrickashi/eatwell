@@ -12,7 +12,8 @@ export default function Header() {
     { name: 'home', path: '/' },
     { name: 'About', path: '/' },
     { name: 'Contact', path: '/' },
-    { name: 'crawfishpie', path: '/crawfish-pie' },
+    { name: 'vision', path: '/visionp' },
+    { name: 'products & services', path: '/productsandservices' },
 
   ]
 
@@ -87,7 +88,7 @@ export default function Header() {
       </div>
 
       {/* Navigation */}
-      <nav className={`bg-red-500 text-white ${isMobileMenuOpen ? 'block' : 'hidden md:block'}`}>
+      <nav className={`bg-red-500 text-white text-xs ${isMobileMenuOpen ? 'block' : 'hidden md:block'}`}>
         <div className="container mx-auto">
           <ul className="flex flex-col md:flex-row md:justify-center md:space-x-8">
             {navItems.map((item) => (

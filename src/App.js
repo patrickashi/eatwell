@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header'
 import Home from './pages/Home'
 import CrawfishPie from './pages/CrawfishPie'
+import Visionp from './pages/Visionp';
+import Productsandservicesp from './pages/Productsandservicesp';
 
 
 export default function App() {
@@ -14,6 +16,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/crawfish-pie" element={<CrawfishPie />} />
+            <Route path="/visionp" element={<Visionp />} />
+            <Route path="/productsandservices" element={<Productsandservicesp />} />
         
           </Routes>
         </main>

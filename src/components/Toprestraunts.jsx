@@ -6,7 +6,7 @@ import foodbg2 from "../Assets/foodbg2.jpg";
 const categories = [
   'Priceless',
   'Odaip',
-  '90 Degrees',
+  '90s',
   'Travellers'
 ]
 
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 3,
-    name: '90 Degrees',
+    name: '90s',
     price: 2200,
     rating: 4,
     image: foodbg1
