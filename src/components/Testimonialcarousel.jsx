@@ -10,21 +10,21 @@ const testimonials = [
     name: "Peter ",
     role: "Banker",
     image: foodbg1,
-    quote: "I am quite impressed with the quality and design of this beautiful Telos bed. The delivery person was good and installed everything perfectly in my room. I love the wooden grains and the finish of the bed."
+    quote: "I love the food, at least it wasnt what i ordered vs what i got, I got exactly the meal i ordered and from my favourite restaurant"
   },
   {
     id: 2,
     name: "Aurora",
     role: "Banker",
     image: foodbg2,
-    quote: "The attention to detail in their furniture is remarkable. Every piece I've purchased has exceeded my expectations in terms of both quality and aesthetics."
+    quote: "I am happy about the speed at which my order got delivered to my doorstep."
   },
   {
     id: 3,
     name: "Mike",
     role: "Product Manager",
     image: foodbg1,
-    quote: "Outstanding customer service and premium quality furniture. The installation team was professional and efficient. Highly recommended!"
+    quote: "Its a good thing we have a food delivery app now in ogoja. Thank God for Eatwell"
   }
 ];
 
